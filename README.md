@@ -5,17 +5,19 @@ Este projeto visa analisar dados de logística, focando em Gestão de Estoque, O
 
 ## Estrutura do Projeto
 
-projeto_supply_chain_data/
-├── data/               # Todos os dados (brutos e processados)
-│   ├── supply_chain_data.csv  # Dados originais
-├── scripts/            # Scripts Python para processamento, análise de dados e geração de relatórios
-│   ├── gerar_dados_sujos.py  # Script para inserir inconsistências
-│   ├── processo_etl.py       # Script para o processo de ETL
-├── visualizations/     # Visualizações e dashboards
-├── env/                # Ambiente virtual
-├── README.md           # Descrição do projeto
-├── requirements.txt    # Lista de dependências
-└── .gitignore          # Arquivo para ignorar arquivos desnecessários no Git
+| Pasta | Descrição |
+|---|---|
+| projeto_supply_chain_data/ | Diretório principal do projeto |
+| data/ | Todos os dados (brutos e processados) |
+| data/supply_chain_data.csv | Dados originais |
+| scripts/ | Scripts Python para processamento, análise de dados e geração de relatórios |
+| scripts/gerar_dados_sujos.py | Script para inserir inconsistências |
+| scripts/processo_etl.py | Script para o processo de ETL |
+| visualizations/ | Visualizações e dashboards |
+| env/ | Ambiente virtual |
+| README.md | Descrição do projeto |
+| requirements.txt | Lista de dependências |
+| .gitignore | Arquivo para ignorar arquivos desnecessários no Git |
 
 
 ## Configuração do Ambiente
